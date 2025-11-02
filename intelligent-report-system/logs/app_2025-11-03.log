@@ -1,0 +1,443 @@
+2025-11-03 00:03:42 | INFO     | src.modules.role_context.context_analyzer:create_role_context:45 - Created context for role: Marketing Director
+2025-11-03 00:03:42 | INFO     | src.modules.insight_generation.generator:generate_insights:34 - Generating insights for structured data
+2025-11-03 00:03:42 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_trends:127 - Detected decreasing trend in quantity
+2025-11-03 00:03:42 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_trends:127 - Detected decreasing trend in unit_price
+2025-11-03 00:03:42 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_trends:127 - Detected decreasing trend in total_amount
+2025-11-03 00:03:42 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_anomalies:234 - Detected 0 anomalies in quantity
+2025-11-03 00:03:42 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_anomalies:234 - Detected 0 anomalies in unit_price
+2025-11-03 00:03:42 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_correlations:338 - Detected 2 correlations
+2025-11-03 00:03:42 | INFO     | src.modules.insight_generation.statistical_analyzer:compare_groups:439 - Generated 2 comparisons
+2025-11-03 00:03:42 | INFO     | src.modules.insight_generation.generator:_filter_for_role:153 - Filtered to 2 insights for role
+2025-11-03 00:03:42 | INFO     | src.modules.insight_generation.generator:generate_insights:59 - Generated 2 insights
+2025-11-03 00:13:42 | INFO     | src.utils.logger:setup_logger:43 - Logger initialized successfully
+2025-11-03 00:13:46 | INFO     | src.modules.input_processing.processor:__init__:22 - Initializing InputProcessor
+2025-11-03 00:13:46 | INFO     | src.modules.input_processing.structured_processor:__init__:23 - StructuredDataProcessor initialized
+2025-11-03 00:13:46 | INFO     | src.modules.input_processing.text_processor:__init__:24 - Initializing TextDataProcessor
+2025-11-03 00:13:46 | INFO     | src.modules.input_processing.text_processor:__init__:29 - Loaded spaCy model: en_core_web_sm
+2025-11-03 00:13:47 | INFO     | src.modules.input_processing.text_processor:__init__:43 - Loaded sentiment analysis model
+2025-11-03 00:13:47 | INFO     | src.modules.input_processing.image_processor:__init__:23 - Initializing ImageDataProcessor
+2025-11-03 00:13:47 | INFO     | src.modules.input_processing.processor:__init__:38 - InputProcessor initialized successfully
+2025-11-03 00:13:47 | INFO     | src.modules.role_context.role_repository:__init__:19 - RoleRepository initialized with 5 roles
+2025-11-03 00:13:47 | INFO     | src.modules.role_context.context_analyzer:__init__:21 - RoleContextAnalyzer initialized
+2025-11-03 00:13:47 | INFO     | src.modules.insight_generation.statistical_analyzer:__init__:23 - StatisticalAnalyzer initialized
+2025-11-03 00:13:47 | INFO     | src.modules.insight_generation.generator:__init__:24 - InsightGenerator initialized
+2025-11-03 00:13:47 | INFO     | src.modules.conversational_interface.query_processor:__init__:21 - QueryProcessor initialized
+2025-11-03 00:13:47 | INFO     | src.modules.conversational_interface.llm_handler:__init__:22 - LLMQueryHandler initialized with model: mistral
+2025-11-03 00:13:47 | INFO     | src.modules.conversational_interface.manager:__init__:27 - ConversationManager initialized with LLM support
+2025-11-03 00:13:47 | INFO     | src.modules.feedback_learning.collector:__init__:22 - FeedbackCollector initialized
+2025-11-03 00:13:47 | INFO     | src.modules.feedback_learning.learning_engine:__init__:23 - LearningEngine initialized
+2025-11-03 00:13:47 | INFO     | src.modules.conversational_interface.manager:create_session:43 - Created conversation session: session_d4072bce
+2025-11-03 00:14:15 | INFO     | src.utils.sample_data_generator:__init__:21 - Sample data will be saved to: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample
+2025-11-03 00:14:15 | INFO     | src.utils.sample_data_generator:generate_sales_data:25 - Generating sales data with 986 rows
+2025-11-03 00:14:15 | INFO     | src.utils.sample_data_generator:generate_sales_data:50 - Sales data saved to: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/sales_data.csv
+2025-11-03 00:14:15 | INFO     | src.modules.input_processing.processor:process_file:49 - Processing file: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/sales_data.csv (type: .csv)
+2025-11-03 00:14:15 | INFO     | src.modules.input_processing.structured_processor:process_csv:28 - Processing CSV file: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/sales_data.csv
+2025-11-03 00:14:15 | INFO     | src.modules.input_processing.structured_processor:process_csv:57 - Successfully processed CSV with 986 rows and 7 columns
+2025-11-03 00:14:22 | INFO     | src.modules.role_context.context_analyzer:create_role_context:45 - Created context for role: Marketing Director
+2025-11-03 00:14:22 | INFO     | src.modules.insight_generation.generator:generate_insights:34 - Generating insights for structured data
+2025-11-03 00:14:22 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_trends:127 - Detected decreasing trend in quantity
+2025-11-03 00:14:22 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_trends:127 - Detected increasing trend in unit_price
+2025-11-03 00:14:22 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_trends:127 - Detected increasing trend in total_amount
+2025-11-03 00:14:22 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_anomalies:234 - Detected 0 anomalies in quantity
+2025-11-03 00:14:22 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_anomalies:234 - Detected 0 anomalies in unit_price
+2025-11-03 00:14:22 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_correlations:338 - Detected 2 correlations
+2025-11-03 00:14:22 | INFO     | src.modules.insight_generation.statistical_analyzer:compare_groups:439 - Generated 2 comparisons
+2025-11-03 00:14:22 | INFO     | src.modules.insight_generation.generator:_filter_for_role:165 - Starting filter with 7 insights for role marketing_director
+2025-11-03 00:14:22 | INFO     | src.modules.insight_generation.generator:_filter_for_role:166 - Role requirements - min_confidence: 0.75, types: ['trend', 'comparison', 'anomaly', 'forecast']
+2025-11-03 00:14:22 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:172 - Filtered out 'Decreasing Trend in quantity' - confidence 0.01 below 0.65
+2025-11-03 00:14:22 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:172 - Filtered out 'Increasing Trend in unit_price' - confidence 0.02 below 0.65
+2025-11-03 00:14:22 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:172 - Filtered out 'Increasing Trend in total_amount' - confidence 0.01 below 0.65
+2025-11-03 00:14:22 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:237 - Filtered out 'Positive Correlation: quantity & total_amount' - type 'correlation' doesn't match requirements
+2025-11-03 00:14:22 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:172 - Filtered out 'Positive Correlation: unit_price & total_amount' - confidence 0.63 below 0.65
+2025-11-03 00:14:22 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:243 - Accepted insight: '2025-07-20 vs 2025-04-20 in quantity' (type: comparison, confidence: 0.90)
+2025-11-03 00:14:22 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:243 - Accepted insight: '2025-04-20 vs 2025-01-28 in quantity' (type: comparison, confidence: 0.90)
+2025-11-03 00:14:22 | INFO     | src.modules.insight_generation.generator:_filter_for_role:245 - Filtered to 2 insights for role (from 7 total)
+2025-11-03 00:14:22 | INFO     | src.modules.insight_generation.generator:generate_insights:59 - Generated 2 insights
+2025-11-03 00:15:02 | INFO     | src.modules.role_context.context_analyzer:create_role_context:45 - Created context for role: Chief Financial Officer
+2025-11-03 00:15:02 | INFO     | src.modules.insight_generation.generator:generate_insights:34 - Generating insights for structured data
+2025-11-03 00:15:02 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_trends:127 - Detected decreasing trend in quantity
+2025-11-03 00:15:02 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_trends:127 - Detected increasing trend in unit_price
+2025-11-03 00:15:02 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_trends:127 - Detected increasing trend in total_amount
+2025-11-03 00:15:02 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_anomalies:234 - Detected 0 anomalies in quantity
+2025-11-03 00:15:02 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_anomalies:234 - Detected 0 anomalies in unit_price
+2025-11-03 00:15:02 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_correlations:338 - Detected 2 correlations
+2025-11-03 00:15:02 | INFO     | src.modules.insight_generation.statistical_analyzer:compare_groups:439 - Generated 2 comparisons
+2025-11-03 00:15:02 | INFO     | src.modules.insight_generation.generator:_filter_for_role:165 - Starting filter with 7 insights for role cfo
+2025-11-03 00:15:02 | INFO     | src.modules.insight_generation.generator:_filter_for_role:166 - Role requirements - min_confidence: 0.8, types: ['trend', 'strategic_risk', 'opportunity', 'high_level_comparison']
+2025-11-03 00:15:02 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:172 - Filtered out 'Decreasing Trend in quantity' - confidence 0.01 below 0.70
+2025-11-03 00:15:02 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:172 - Filtered out 'Increasing Trend in unit_price' - confidence 0.02 below 0.70
+2025-11-03 00:15:02 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:172 - Filtered out 'Increasing Trend in total_amount' - confidence 0.01 below 0.70
+2025-11-03 00:15:02 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:172 - Filtered out 'Positive Correlation: quantity & total_amount' - confidence 0.68 below 0.70
+2025-11-03 00:15:02 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:172 - Filtered out 'Positive Correlation: unit_price & total_amount' - confidence 0.63 below 0.70
+2025-11-03 00:15:02 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:243 - Accepted insight: '2025-07-20 vs 2025-04-20 in quantity' (type: comparison, confidence: 0.90)
+2025-11-03 00:15:02 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:243 - Accepted insight: '2025-04-20 vs 2025-01-28 in quantity' (type: comparison, confidence: 0.90)
+2025-11-03 00:15:02 | INFO     | src.modules.insight_generation.generator:_filter_for_role:245 - Filtered to 2 insights for role (from 7 total)
+2025-11-03 00:15:02 | INFO     | src.modules.insight_generation.generator:generate_insights:59 - Generated 2 insights
+2025-11-03 00:15:13 | INFO     | src.modules.role_context.context_analyzer:create_role_context:45 - Created context for role: Marketing Director
+2025-11-03 00:15:13 | INFO     | src.modules.insight_generation.generator:generate_insights:34 - Generating insights for structured data
+2025-11-03 00:15:13 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_trends:127 - Detected decreasing trend in quantity
+2025-11-03 00:15:13 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_trends:127 - Detected increasing trend in unit_price
+2025-11-03 00:15:13 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_trends:127 - Detected increasing trend in total_amount
+2025-11-03 00:15:13 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_anomalies:234 - Detected 0 anomalies in quantity
+2025-11-03 00:15:13 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_anomalies:234 - Detected 0 anomalies in unit_price
+2025-11-03 00:15:13 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_correlations:338 - Detected 2 correlations
+2025-11-03 00:15:13 | INFO     | src.modules.insight_generation.statistical_analyzer:compare_groups:439 - Generated 2 comparisons
+2025-11-03 00:15:13 | INFO     | src.modules.insight_generation.generator:_filter_for_role:165 - Starting filter with 7 insights for role marketing_director
+2025-11-03 00:15:13 | INFO     | src.modules.insight_generation.generator:_filter_for_role:166 - Role requirements - min_confidence: 0.75, types: ['trend', 'comparison', 'anomaly', 'forecast']
+2025-11-03 00:15:13 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:172 - Filtered out 'Decreasing Trend in quantity' - confidence 0.01 below 0.65
+2025-11-03 00:15:13 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:172 - Filtered out 'Increasing Trend in unit_price' - confidence 0.02 below 0.65
+2025-11-03 00:15:13 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:172 - Filtered out 'Increasing Trend in total_amount' - confidence 0.01 below 0.65
+2025-11-03 00:15:13 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:237 - Filtered out 'Positive Correlation: quantity & total_amount' - type 'correlation' doesn't match requirements
+2025-11-03 00:15:13 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:172 - Filtered out 'Positive Correlation: unit_price & total_amount' - confidence 0.63 below 0.65
+2025-11-03 00:15:13 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:243 - Accepted insight: '2025-07-20 vs 2025-04-20 in quantity' (type: comparison, confidence: 0.90)
+2025-11-03 00:15:13 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:243 - Accepted insight: '2025-04-20 vs 2025-01-28 in quantity' (type: comparison, confidence: 0.90)
+2025-11-03 00:15:13 | INFO     | src.modules.insight_generation.generator:_filter_for_role:245 - Filtered to 2 insights for role (from 7 total)
+2025-11-03 00:15:13 | INFO     | src.modules.insight_generation.generator:generate_insights:59 - Generated 2 insights
+2025-11-03 00:15:21 | INFO     | src.modules.role_context.context_analyzer:create_role_context:45 - Created context for role: Operations Manager
+2025-11-03 00:15:21 | INFO     | src.modules.insight_generation.generator:generate_insights:34 - Generating insights for structured data
+2025-11-03 00:15:21 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_trends:127 - Detected decreasing trend in quantity
+2025-11-03 00:15:21 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_trends:127 - Detected increasing trend in unit_price
+2025-11-03 00:15:21 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_trends:127 - Detected increasing trend in total_amount
+2025-11-03 00:15:21 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_anomalies:234 - Detected 0 anomalies in quantity
+2025-11-03 00:15:21 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_anomalies:234 - Detected 0 anomalies in unit_price
+2025-11-03 00:15:21 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_correlations:338 - Detected 2 correlations
+2025-11-03 00:15:21 | INFO     | src.modules.insight_generation.statistical_analyzer:compare_groups:439 - Generated 2 comparisons
+2025-11-03 00:15:21 | INFO     | src.modules.insight_generation.generator:_filter_for_role:165 - Starting filter with 7 insights for role operations_manager
+2025-11-03 00:15:21 | INFO     | src.modules.insight_generation.generator:_filter_for_role:166 - Role requirements - min_confidence: 0.7, types: ['anomaly', 'trend', 'team_performance', 'operational_issue']
+2025-11-03 00:15:21 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:172 - Filtered out 'Decreasing Trend in quantity' - confidence 0.01 below 0.60
+2025-11-03 00:15:21 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:172 - Filtered out 'Increasing Trend in unit_price' - confidence 0.02 below 0.60
+2025-11-03 00:15:21 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:172 - Filtered out 'Increasing Trend in total_amount' - confidence 0.01 below 0.60
+2025-11-03 00:15:21 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:223 - Accepted 'Positive Correlation: quantity & total_amount' via manager role override
+2025-11-03 00:15:21 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:243 - Accepted insight: 'Positive Correlation: quantity & total_amount' (type: correlation, confidence: 0.68)
+2025-11-03 00:15:21 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:223 - Accepted 'Positive Correlation: unit_price & total_amount' via manager role override
+2025-11-03 00:15:21 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:243 - Accepted insight: 'Positive Correlation: unit_price & total_amount' (type: correlation, confidence: 0.63)
+2025-11-03 00:15:21 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:223 - Accepted '2025-07-20 vs 2025-04-20 in quantity' via manager role override
+2025-11-03 00:15:21 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:243 - Accepted insight: '2025-07-20 vs 2025-04-20 in quantity' (type: comparison, confidence: 0.90)
+2025-11-03 00:15:21 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:223 - Accepted '2025-04-20 vs 2025-01-28 in quantity' via manager role override
+2025-11-03 00:15:21 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:243 - Accepted insight: '2025-04-20 vs 2025-01-28 in quantity' (type: comparison, confidence: 0.90)
+2025-11-03 00:15:21 | INFO     | src.modules.insight_generation.generator:_filter_for_role:245 - Filtered to 4 insights for role (from 7 total)
+2025-11-03 00:15:21 | INFO     | src.modules.insight_generation.generator:generate_insights:59 - Generated 4 insights
+2025-11-03 00:15:52 | INFO     | src.modules.conversational_interface.llm_handler:process_query_with_llm:111 - LLM processed query successfully: intent=summary
+2025-11-03 00:15:52 | INFO     | src.modules.conversational_interface.manager:process_message:75 - Used LLM for query processing
+2025-11-03 00:15:52 | INFO     | src.modules.conversational_interface.manager:process_message:101 - Processed message in session session_d4072bce: intent=summary
+2025-11-03 00:16:20 | INFO     | src.modules.feedback_learning.collector:get_feedback_summary:184 - Generated feedback summary: 0 feedbacks, avg=0.00
+2025-11-03 00:16:23 | INFO     | src.modules.feedback_learning.collector:get_feedback_summary:184 - Generated feedback summary: 0 feedbacks, avg=0.00
+2025-11-03 00:16:23 | INFO     | src.modules.feedback_learning.learning_engine:compute_learning_metrics:118 - Computed learning metrics: satisfaction=0.00%
+2025-11-03 00:16:23 | INFO     | src.modules.feedback_learning.collector:get_feedback_summary:184 - Generated feedback summary: 0 feedbacks, avg=0.00
+2025-11-03 00:16:29 | INFO     | src.modules.feedback_learning.collector:get_feedback_summary:184 - Generated feedback summary: 0 feedbacks, avg=0.00
+2025-11-03 00:16:29 | INFO     | src.modules.feedback_learning.learning_engine:adapt_system:124 - Adapting system based on feedback
+2025-11-03 00:16:29 | INFO     | src.modules.feedback_learning.learning_engine:update_insight_weights:28 - Updating insight weights from feedback
+2025-11-03 00:16:29 | INFO     | src.modules.feedback_learning.learning_engine:update_insight_weights:50 - Updated weights for 0 insights
+2025-11-03 00:16:29 | INFO     | src.modules.feedback_learning.learning_engine:learn_role_preferences:55 - Learning role preferences
+2025-11-03 00:16:29 | INFO     | src.modules.feedback_learning.learning_engine:learn_role_preferences:71 - Learned preferences for 0 roles
+2025-11-03 00:16:29 | INFO     | src.modules.feedback_learning.learning_engine:adapt_system:150 - System adapted: 2 total adaptations
+2025-11-03 00:17:24 | INFO     | src.utils.logger:setup_logger:43 - Logger initialized successfully
+2025-11-03 00:18:12 | INFO     | src.utils.logger:setup_logger:43 - Logger initialized successfully
+2025-11-03 00:18:46 | INFO     | src.modules.role_context.context_analyzer:create_role_context:45 - Created context for role: Financial Analyst
+2025-11-03 00:18:46 | INFO     | src.modules.insight_generation.generator:generate_insights:34 - Generating insights for structured data
+2025-11-03 00:18:46 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_trends:127 - Detected decreasing trend in quantity
+2025-11-03 00:18:46 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_trends:127 - Detected increasing trend in unit_price
+2025-11-03 00:18:46 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_trends:127 - Detected increasing trend in total_amount
+2025-11-03 00:18:46 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_anomalies:234 - Detected 0 anomalies in quantity
+2025-11-03 00:18:46 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_anomalies:234 - Detected 0 anomalies in unit_price
+2025-11-03 00:18:46 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_correlations:338 - Detected 2 correlations
+2025-11-03 00:18:46 | INFO     | src.modules.insight_generation.statistical_analyzer:compare_groups:439 - Generated 2 comparisons
+2025-11-03 00:18:46 | INFO     | src.modules.insight_generation.generator:_filter_for_role:165 - Starting filter with 7 insights for role financial_analyst
+2025-11-03 00:18:46 | INFO     | src.modules.insight_generation.generator:_filter_for_role:166 - Role requirements - min_confidence: 0.65, types: ['detailed_analysis', 'root_cause', 'variance', 'forecast']
+2025-11-03 00:18:46 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:172 - Filtered out 'Decreasing Trend in quantity' - confidence 0.01 below 0.55
+2025-11-03 00:18:46 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:172 - Filtered out 'Increasing Trend in unit_price' - confidence 0.02 below 0.55
+2025-11-03 00:18:46 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:172 - Filtered out 'Increasing Trend in total_amount' - confidence 0.01 below 0.55
+2025-11-03 00:18:46 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:223 - Accepted 'Positive Correlation: quantity & total_amount' via manager role override
+2025-11-03 00:18:46 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:243 - Accepted insight: 'Positive Correlation: quantity & total_amount' (type: correlation, confidence: 0.68)
+2025-11-03 00:18:46 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:223 - Accepted 'Positive Correlation: unit_price & total_amount' via manager role override
+2025-11-03 00:18:46 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:243 - Accepted insight: 'Positive Correlation: unit_price & total_amount' (type: correlation, confidence: 0.63)
+2025-11-03 00:18:46 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:223 - Accepted '2025-07-20 vs 2025-04-20 in quantity' via manager role override
+2025-11-03 00:18:46 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:243 - Accepted insight: '2025-07-20 vs 2025-04-20 in quantity' (type: comparison, confidence: 0.90)
+2025-11-03 00:18:46 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:223 - Accepted '2025-04-20 vs 2025-01-28 in quantity' via manager role override
+2025-11-03 00:18:46 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:243 - Accepted insight: '2025-04-20 vs 2025-01-28 in quantity' (type: comparison, confidence: 0.90)
+2025-11-03 00:18:46 | INFO     | src.modules.insight_generation.generator:_filter_for_role:245 - Filtered to 4 insights for role (from 7 total)
+2025-11-03 00:18:46 | INFO     | src.modules.insight_generation.generator:generate_insights:59 - Generated 4 insights
+2025-11-03 00:19:33 | INFO     | src.utils.logger:setup_logger:43 - Logger initialized successfully
+2025-11-03 00:19:46 | INFO     | src.utils.logger:setup_logger:43 - Logger initialized successfully
+2025-11-03 00:22:43 | INFO     | src.utils.sample_data_generator:__init__:21 - Sample data will be saved to: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample
+2025-11-03 00:22:43 | INFO     | src.utils.sample_data_generator:generate_sales_data:25 - Generating sales data with 1000 rows
+2025-11-03 00:22:43 | INFO     | src.utils.sample_data_generator:generate_sales_data:50 - Sales data saved to: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/sales_data.csv
+2025-11-03 00:22:43 | INFO     | src.modules.input_processing.processor:process_file:49 - Processing file: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/sales_data.csv (type: .csv)
+2025-11-03 00:22:43 | INFO     | src.modules.input_processing.structured_processor:process_csv:28 - Processing CSV file: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/sales_data.csv
+2025-11-03 00:22:43 | INFO     | src.modules.input_processing.structured_processor:process_csv:57 - Successfully processed CSV with 1000 rows and 7 columns
+2025-11-03 00:22:53 | INFO     | src.modules.role_context.context_analyzer:create_role_context:45 - Created context for role: Chief Financial Officer
+2025-11-03 00:22:53 | INFO     | src.modules.insight_generation.generator:generate_insights:34 - Generating insights for structured data
+2025-11-03 00:22:53 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_trends:127 - Detected decreasing trend in quantity
+2025-11-03 00:22:53 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_trends:127 - Detected decreasing trend in unit_price
+2025-11-03 00:22:53 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_trends:127 - Detected decreasing trend in total_amount
+2025-11-03 00:22:53 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_anomalies:234 - Detected 0 anomalies in quantity
+2025-11-03 00:22:53 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_anomalies:234 - Detected 0 anomalies in unit_price
+2025-11-03 00:22:53 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_correlations:338 - Detected 2 correlations
+2025-11-03 00:22:53 | INFO     | src.modules.insight_generation.statistical_analyzer:compare_groups:439 - Generated 2 comparisons
+2025-11-03 00:22:53 | INFO     | src.modules.insight_generation.generator:_filter_for_role:165 - Starting filter with 7 insights for role cfo
+2025-11-03 00:22:53 | INFO     | src.modules.insight_generation.generator:_filter_for_role:166 - Role requirements - min_confidence: 0.8, types: ['trend', 'strategic_risk', 'opportunity', 'high_level_comparison']
+2025-11-03 00:22:53 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:172 - Filtered out 'Decreasing Trend in quantity' - confidence 0.01 below 0.70
+2025-11-03 00:22:53 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:172 - Filtered out 'Decreasing Trend in unit_price' - confidence 0.07 below 0.70
+2025-11-03 00:22:53 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:172 - Filtered out 'Decreasing Trend in total_amount' - confidence 0.05 below 0.70
+2025-11-03 00:22:53 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:172 - Filtered out 'Positive Correlation: quantity & total_amount' - confidence 0.66 below 0.70
+2025-11-03 00:22:53 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:172 - Filtered out 'Positive Correlation: unit_price & total_amount' - confidence 0.61 below 0.70
+2025-11-03 00:22:53 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:243 - Accepted insight: '2025-05-18 vs 2024-12-22 in quantity' (type: comparison, confidence: 0.90)
+2025-11-03 00:22:53 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:243 - Accepted insight: '2024-12-22 vs 2025-01-24 in quantity' (type: comparison, confidence: 0.90)
+2025-11-03 00:22:53 | INFO     | src.modules.insight_generation.generator:_filter_for_role:245 - Filtered to 2 insights for role (from 7 total)
+2025-11-03 00:22:53 | INFO     | src.modules.insight_generation.generator:generate_insights:59 - Generated 2 insights
+2025-11-03 00:23:22 | INFO     | src.modules.role_context.context_analyzer:create_role_context:45 - Created context for role: Regional Sales Manager
+2025-11-03 00:23:22 | INFO     | src.modules.insight_generation.generator:generate_insights:34 - Generating insights for structured data
+2025-11-03 00:23:22 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_trends:127 - Detected decreasing trend in quantity
+2025-11-03 00:23:22 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_trends:127 - Detected decreasing trend in unit_price
+2025-11-03 00:23:22 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_trends:127 - Detected decreasing trend in total_amount
+2025-11-03 00:23:22 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_anomalies:234 - Detected 0 anomalies in quantity
+2025-11-03 00:23:22 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_anomalies:234 - Detected 0 anomalies in unit_price
+2025-11-03 00:23:22 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_correlations:338 - Detected 2 correlations
+2025-11-03 00:23:22 | INFO     | src.modules.insight_generation.statistical_analyzer:compare_groups:439 - Generated 2 comparisons
+2025-11-03 00:23:22 | INFO     | src.modules.insight_generation.generator:_filter_for_role:165 - Starting filter with 7 insights for role regional_sales_manager
+2025-11-03 00:23:22 | INFO     | src.modules.insight_generation.generator:_filter_for_role:166 - Role requirements - min_confidence: 0.7, types: ['anomaly', 'trend', 'team_performance', 'operational_issue']
+2025-11-03 00:23:22 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:172 - Filtered out 'Decreasing Trend in quantity' - confidence 0.01 below 0.60
+2025-11-03 00:23:22 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:172 - Filtered out 'Decreasing Trend in unit_price' - confidence 0.07 below 0.60
+2025-11-03 00:23:22 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:172 - Filtered out 'Decreasing Trend in total_amount' - confidence 0.05 below 0.60
+2025-11-03 00:23:22 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:223 - Accepted 'Positive Correlation: quantity & total_amount' via manager role override
+2025-11-03 00:23:22 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:243 - Accepted insight: 'Positive Correlation: quantity & total_amount' (type: correlation, confidence: 0.66)
+2025-11-03 00:23:22 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:223 - Accepted 'Positive Correlation: unit_price & total_amount' via manager role override
+2025-11-03 00:23:22 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:243 - Accepted insight: 'Positive Correlation: unit_price & total_amount' (type: correlation, confidence: 0.61)
+2025-11-03 00:23:22 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:223 - Accepted '2025-05-18 vs 2024-12-22 in quantity' via manager role override
+2025-11-03 00:23:22 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:243 - Accepted insight: '2025-05-18 vs 2024-12-22 in quantity' (type: comparison, confidence: 0.90)
+2025-11-03 00:23:22 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:223 - Accepted '2024-12-22 vs 2025-01-24 in quantity' via manager role override
+2025-11-03 00:23:22 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:243 - Accepted insight: '2024-12-22 vs 2025-01-24 in quantity' (type: comparison, confidence: 0.90)
+2025-11-03 00:23:22 | INFO     | src.modules.insight_generation.generator:_filter_for_role:245 - Filtered to 4 insights for role (from 7 total)
+2025-11-03 00:23:22 | INFO     | src.modules.insight_generation.generator:generate_insights:59 - Generated 4 insights
+2025-11-03 00:23:47 | INFO     | src.modules.role_context.context_analyzer:create_role_context:45 - Created context for role: Marketing Director
+2025-11-03 00:23:47 | INFO     | src.modules.insight_generation.generator:generate_insights:34 - Generating insights for structured data
+2025-11-03 00:23:47 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_trends:127 - Detected decreasing trend in quantity
+2025-11-03 00:23:47 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_trends:127 - Detected decreasing trend in unit_price
+2025-11-03 00:23:47 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_trends:127 - Detected decreasing trend in total_amount
+2025-11-03 00:23:47 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_anomalies:234 - Detected 0 anomalies in quantity
+2025-11-03 00:23:47 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_anomalies:234 - Detected 0 anomalies in unit_price
+2025-11-03 00:23:47 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_correlations:338 - Detected 2 correlations
+2025-11-03 00:23:47 | INFO     | src.modules.insight_generation.statistical_analyzer:compare_groups:439 - Generated 2 comparisons
+2025-11-03 00:23:47 | INFO     | src.modules.insight_generation.generator:_filter_for_role:165 - Starting filter with 7 insights for role marketing_director
+2025-11-03 00:23:47 | INFO     | src.modules.insight_generation.generator:_filter_for_role:166 - Role requirements - min_confidence: 0.75, types: ['trend', 'comparison', 'anomaly', 'forecast']
+2025-11-03 00:23:47 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:172 - Filtered out 'Decreasing Trend in quantity' - confidence 0.01 below 0.65
+2025-11-03 00:23:47 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:172 - Filtered out 'Decreasing Trend in unit_price' - confidence 0.07 below 0.65
+2025-11-03 00:23:47 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:172 - Filtered out 'Decreasing Trend in total_amount' - confidence 0.05 below 0.65
+2025-11-03 00:23:47 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:237 - Filtered out 'Positive Correlation: quantity & total_amount' - type 'correlation' doesn't match requirements
+2025-11-03 00:23:47 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:172 - Filtered out 'Positive Correlation: unit_price & total_amount' - confidence 0.61 below 0.65
+2025-11-03 00:23:47 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:243 - Accepted insight: '2025-05-18 vs 2024-12-22 in quantity' (type: comparison, confidence: 0.90)
+2025-11-03 00:23:47 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:243 - Accepted insight: '2024-12-22 vs 2025-01-24 in quantity' (type: comparison, confidence: 0.90)
+2025-11-03 00:23:47 | INFO     | src.modules.insight_generation.generator:_filter_for_role:245 - Filtered to 2 insights for role (from 7 total)
+2025-11-03 00:23:47 | INFO     | src.modules.insight_generation.generator:generate_insights:59 - Generated 2 insights
+2025-11-03 00:24:18 | INFO     | src.modules.conversational_interface.llm_handler:process_query_with_llm:111 - LLM processed query successfully: intent=summary
+2025-11-03 00:24:18 | INFO     | src.modules.conversational_interface.manager:process_message:75 - Used LLM for query processing
+2025-11-03 00:24:18 | INFO     | src.modules.conversational_interface.manager:process_message:101 - Processed message in session session_d4072bce: intent=summary
+2025-11-03 00:24:31 | INFO     | src.modules.conversational_interface.llm_handler:process_query_with_llm:111 - LLM processed query successfully: intent=general
+2025-11-03 00:24:31 | INFO     | src.modules.conversational_interface.manager:process_message:75 - Used LLM for query processing
+2025-11-03 00:24:31 | INFO     | src.modules.conversational_interface.manager:process_message:101 - Processed message in session session_d4072bce: intent=general
+2025-11-03 00:24:55 | INFO     | src.modules.conversational_interface.llm_handler:process_query_with_llm:111 - LLM processed query successfully: intent=clarification
+2025-11-03 00:24:55 | INFO     | src.modules.conversational_interface.manager:process_message:75 - Used LLM for query processing
+2025-11-03 00:24:55 | INFO     | src.modules.conversational_interface.manager:process_message:101 - Processed message in session session_d4072bce: intent=clarification
+2025-11-03 00:25:02 | INFO     | src.modules.feedback_learning.collector:get_feedback_summary:184 - Generated feedback summary: 0 feedbacks, avg=0.00
+2025-11-03 00:25:05 | INFO     | src.modules.feedback_learning.collector:get_feedback_summary:184 - Generated feedback summary: 0 feedbacks, avg=0.00
+2025-11-03 00:25:05 | INFO     | src.modules.feedback_learning.learning_engine:compute_learning_metrics:118 - Computed learning metrics: satisfaction=0.00%
+2025-11-03 00:25:05 | INFO     | src.modules.feedback_learning.collector:get_feedback_summary:184 - Generated feedback summary: 0 feedbacks, avg=0.00
+2025-11-03 00:25:10 | INFO     | src.modules.feedback_learning.collector:get_feedback_summary:184 - Generated feedback summary: 0 feedbacks, avg=0.00
+2025-11-03 00:25:10 | INFO     | src.modules.feedback_learning.learning_engine:adapt_system:124 - Adapting system based on feedback
+2025-11-03 00:25:10 | INFO     | src.modules.feedback_learning.learning_engine:update_insight_weights:28 - Updating insight weights from feedback
+2025-11-03 00:25:10 | INFO     | src.modules.feedback_learning.learning_engine:update_insight_weights:50 - Updated weights for 0 insights
+2025-11-03 00:25:10 | INFO     | src.modules.feedback_learning.learning_engine:learn_role_preferences:55 - Learning role preferences
+2025-11-03 00:25:10 | INFO     | src.modules.feedback_learning.learning_engine:learn_role_preferences:71 - Learned preferences for 0 roles
+2025-11-03 00:25:10 | INFO     | src.modules.feedback_learning.learning_engine:adapt_system:150 - System adapted: 4 total adaptations
+2025-11-03 00:25:38 | INFO     | src.modules.input_processing.processor:__init__:22 - Initializing InputProcessor
+2025-11-03 00:25:38 | INFO     | src.modules.input_processing.structured_processor:__init__:23 - StructuredDataProcessor initialized
+2025-11-03 00:25:38 | INFO     | src.modules.input_processing.text_processor:__init__:24 - Initializing TextDataProcessor
+2025-11-03 00:25:38 | INFO     | src.modules.input_processing.text_processor:__init__:29 - Loaded spaCy model: en_core_web_sm
+2025-11-03 00:25:39 | INFO     | src.modules.input_processing.text_processor:__init__:43 - Loaded sentiment analysis model
+2025-11-03 00:25:39 | INFO     | src.modules.input_processing.image_processor:__init__:23 - Initializing ImageDataProcessor
+2025-11-03 00:25:39 | INFO     | src.modules.input_processing.processor:__init__:38 - InputProcessor initialized successfully
+2025-11-03 00:25:39 | INFO     | src.modules.role_context.role_repository:__init__:19 - RoleRepository initialized with 5 roles
+2025-11-03 00:25:39 | INFO     | src.modules.role_context.context_analyzer:__init__:21 - RoleContextAnalyzer initialized
+2025-11-03 00:25:39 | INFO     | src.modules.insight_generation.statistical_analyzer:__init__:23 - StatisticalAnalyzer initialized
+2025-11-03 00:25:39 | INFO     | src.modules.insight_generation.generator:__init__:24 - InsightGenerator initialized
+2025-11-03 00:25:39 | INFO     | src.modules.conversational_interface.query_processor:__init__:21 - QueryProcessor initialized
+2025-11-03 00:25:39 | INFO     | src.modules.conversational_interface.llm_handler:__init__:22 - LLMQueryHandler initialized with model: mistral
+2025-11-03 00:25:39 | INFO     | src.modules.conversational_interface.manager:__init__:27 - ConversationManager initialized with LLM support
+2025-11-03 00:25:39 | INFO     | src.modules.feedback_learning.collector:__init__:22 - FeedbackCollector initialized
+2025-11-03 00:25:39 | INFO     | src.modules.feedback_learning.learning_engine:__init__:23 - LearningEngine initialized
+2025-11-03 00:25:39 | INFO     | src.modules.conversational_interface.manager:create_session:43 - Created conversation session: session_96ecacee
+2025-11-03 00:25:54 | INFO     | src.utils.sample_data_generator:__init__:21 - Sample data will be saved to: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample
+2025-11-03 00:25:54 | INFO     | src.utils.sample_data_generator:generate_sales_data:25 - Generating sales data with 1000 rows
+2025-11-03 00:25:54 | INFO     | src.utils.sample_data_generator:generate_sales_data:50 - Sales data saved to: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/sales_data.csv
+2025-11-03 00:25:54 | INFO     | src.modules.input_processing.processor:process_file:49 - Processing file: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/sales_data.csv (type: .csv)
+2025-11-03 00:25:54 | INFO     | src.modules.input_processing.structured_processor:process_csv:28 - Processing CSV file: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/sales_data.csv
+2025-11-03 00:25:54 | INFO     | src.modules.input_processing.structured_processor:process_csv:57 - Successfully processed CSV with 1000 rows and 7 columns
+2025-11-03 00:26:01 | INFO     | src.modules.role_context.context_analyzer:create_role_context:45 - Created context for role: Regional Sales Manager
+2025-11-03 00:26:01 | INFO     | src.modules.insight_generation.generator:generate_insights:34 - Generating insights for structured data
+2025-11-03 00:26:01 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_trends:127 - Detected increasing trend in quantity
+2025-11-03 00:26:01 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_trends:127 - Detected decreasing trend in unit_price
+2025-11-03 00:26:01 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_trends:127 - Detected increasing trend in total_amount
+2025-11-03 00:26:01 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_anomalies:234 - Detected 0 anomalies in quantity
+2025-11-03 00:26:01 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_anomalies:234 - Detected 0 anomalies in unit_price
+2025-11-03 00:26:01 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_correlations:338 - Detected 2 correlations
+2025-11-03 00:26:01 | INFO     | src.modules.insight_generation.statistical_analyzer:compare_groups:439 - Generated 2 comparisons
+2025-11-03 00:26:01 | INFO     | src.modules.insight_generation.generator:_filter_for_role:165 - Starting filter with 7 insights for role regional_sales_manager
+2025-11-03 00:26:01 | INFO     | src.modules.insight_generation.generator:_filter_for_role:166 - Role requirements - min_confidence: 0.7, types: ['anomaly', 'trend', 'team_performance', 'operational_issue']
+2025-11-03 00:26:01 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:172 - Filtered out 'Increasing Trend in quantity' - confidence 0.03 below 0.60
+2025-11-03 00:26:01 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:172 - Filtered out 'Decreasing Trend in unit_price' - confidence 0.02 below 0.60
+2025-11-03 00:26:01 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:172 - Filtered out 'Increasing Trend in total_amount' - confidence 0.03 below 0.60
+2025-11-03 00:26:01 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:223 - Accepted 'Positive Correlation: quantity & total_amount' via manager role override
+2025-11-03 00:26:01 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:243 - Accepted insight: 'Positive Correlation: quantity & total_amount' (type: correlation, confidence: 0.67)
+2025-11-03 00:26:01 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:223 - Accepted 'Positive Correlation: unit_price & total_amount' via manager role override
+2025-11-03 00:26:01 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:243 - Accepted insight: 'Positive Correlation: unit_price & total_amount' (type: correlation, confidence: 0.68)
+2025-11-03 00:26:01 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:223 - Accepted '2025-03-27 vs 2025-10-10 in quantity' via manager role override
+2025-11-03 00:26:01 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:243 - Accepted insight: '2025-03-27 vs 2025-10-10 in quantity' (type: comparison, confidence: 0.90)
+2025-11-03 00:26:01 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:223 - Accepted '2025-10-10 vs 2025-07-01 in quantity' via manager role override
+2025-11-03 00:26:01 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:243 - Accepted insight: '2025-10-10 vs 2025-07-01 in quantity' (type: comparison, confidence: 0.90)
+2025-11-03 00:26:01 | INFO     | src.modules.insight_generation.generator:_filter_for_role:245 - Filtered to 4 insights for role (from 7 total)
+2025-11-03 00:26:01 | INFO     | src.modules.insight_generation.generator:generate_insights:59 - Generated 4 insights
+2025-11-03 00:26:24 | INFO     | src.modules.conversational_interface.llm_handler:process_query_with_llm:111 - LLM processed query successfully: intent=clarification
+2025-11-03 00:26:24 | INFO     | src.modules.conversational_interface.manager:process_message:75 - Used LLM for query processing
+2025-11-03 00:26:24 | INFO     | src.modules.conversational_interface.manager:process_message:101 - Processed message in session session_96ecacee: intent=clarification
+2025-11-03 00:26:33 | INFO     | src.modules.conversational_interface.llm_handler:process_query_with_llm:111 - LLM processed query successfully: intent=general
+2025-11-03 00:26:33 | INFO     | src.modules.conversational_interface.manager:process_message:75 - Used LLM for query processing
+2025-11-03 00:26:33 | INFO     | src.modules.conversational_interface.manager:process_message:101 - Processed message in session session_96ecacee: intent=general
+2025-11-03 00:27:37 | INFO     | src.utils.logger:setup_logger:43 - Logger initialized successfully
+2025-11-03 00:27:43 | INFO     | src.modules.input_processing.processor:__init__:22 - Initializing InputProcessor
+2025-11-03 00:27:43 | INFO     | src.modules.input_processing.structured_processor:__init__:23 - StructuredDataProcessor initialized
+2025-11-03 00:27:43 | INFO     | src.modules.input_processing.text_processor:__init__:24 - Initializing TextDataProcessor
+2025-11-03 00:27:44 | INFO     | src.modules.input_processing.text_processor:__init__:29 - Loaded spaCy model: en_core_web_sm
+2025-11-03 00:27:44 | INFO     | src.modules.input_processing.text_processor:__init__:43 - Loaded sentiment analysis model
+2025-11-03 00:27:44 | INFO     | src.modules.input_processing.image_processor:__init__:23 - Initializing ImageDataProcessor
+2025-11-03 00:27:44 | INFO     | src.modules.input_processing.processor:__init__:38 - InputProcessor initialized successfully
+2025-11-03 00:27:44 | INFO     | src.modules.role_context.role_repository:__init__:19 - RoleRepository initialized with 5 roles
+2025-11-03 00:27:44 | INFO     | src.modules.role_context.context_analyzer:__init__:21 - RoleContextAnalyzer initialized
+2025-11-03 00:27:44 | INFO     | src.modules.insight_generation.statistical_analyzer:__init__:23 - StatisticalAnalyzer initialized
+2025-11-03 00:27:44 | INFO     | src.modules.insight_generation.generator:__init__:24 - InsightGenerator initialized
+2025-11-03 00:27:44 | INFO     | src.modules.conversational_interface.query_processor:__init__:21 - QueryProcessor initialized
+2025-11-03 00:27:44 | INFO     | src.modules.conversational_interface.llm_handler:__init__:22 - LLMQueryHandler initialized with model: mistral
+2025-11-03 00:27:44 | INFO     | src.modules.conversational_interface.manager:__init__:27 - ConversationManager initialized with LLM support
+2025-11-03 00:27:44 | INFO     | src.modules.feedback_learning.collector:__init__:22 - FeedbackCollector initialized
+2025-11-03 00:27:44 | INFO     | src.modules.feedback_learning.learning_engine:__init__:23 - LearningEngine initialized
+2025-11-03 00:27:44 | INFO     | src.utils.sample_data_generator:__init__:21 - Sample data will be saved to: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample
+2025-11-03 00:27:45 | INFO     | src.utils.sample_data_generator:generate_sales_data:25 - Generating sales data with 500 rows
+2025-11-03 00:27:45 | INFO     | src.utils.sample_data_generator:generate_sales_data:50 - Sales data saved to: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/sales_data.csv
+2025-11-03 00:27:45 | INFO     | src.modules.input_processing.processor:process_file:49 - Processing file: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/sales_data.csv (type: .csv)
+2025-11-03 00:27:45 | INFO     | src.modules.input_processing.structured_processor:process_csv:28 - Processing CSV file: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/sales_data.csv
+2025-11-03 00:27:45 | INFO     | src.modules.input_processing.structured_processor:process_csv:57 - Successfully processed CSV with 500 rows and 7 columns
+2025-11-03 00:27:45 | INFO     | src.utils.sample_data_generator:generate_financial_report:55 - Generating financial report
+2025-11-03 00:27:45 | INFO     | src.utils.sample_data_generator:generate_financial_report:102 - Financial report saved to: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/financial_report.txt
+2025-11-03 00:27:45 | INFO     | src.modules.input_processing.processor:process_file:49 - Processing file: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/financial_report.txt (type: .txt)
+2025-11-03 00:27:45 | INFO     | src.modules.input_processing.text_processor:process_text_file:53 - Processing text file: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/financial_report.txt
+2025-11-03 00:27:45 | DEBUG    | src.modules.input_processing.text_processor:_extract_entities:185 - Extracted 27 entities
+2025-11-03 00:27:46 | DEBUG    | src.modules.input_processing.text_processor:_analyze_sentiment:209 - Sentiment: positive (1.00)
+2025-11-03 00:27:46 | DEBUG    | src.modules.input_processing.text_processor:_extract_key_phrases:235 - Extracted 20 key phrases
+2025-11-03 00:27:46 | INFO     | src.modules.input_processing.text_processor:_process_text_content:149 - Successfully processed text with 237 words and 27 entities
+2025-11-03 00:27:46 | INFO     | src.utils.sample_data_generator:generate_customer_feedback:107 - Generating customer feedback document
+2025-11-03 00:27:46 | INFO     | src.utils.sample_data_generator:generate_customer_feedback:167 - Customer feedback saved to: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/customer_feedback.txt
+2025-11-03 00:27:46 | INFO     | src.modules.input_processing.processor:process_file:49 - Processing file: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/customer_feedback.txt (type: .txt)
+2025-11-03 00:27:46 | INFO     | src.modules.input_processing.text_processor:process_text_file:53 - Processing text file: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/customer_feedback.txt
+2025-11-03 00:27:46 | DEBUG    | src.modules.input_processing.text_processor:_extract_entities:185 - Extracted 38 entities
+2025-11-03 00:27:46 | DEBUG    | src.modules.input_processing.text_processor:_analyze_sentiment:209 - Sentiment: positive (0.99)
+2025-11-03 00:27:46 | DEBUG    | src.modules.input_processing.text_processor:_extract_key_phrases:235 - Extracted 20 key phrases
+2025-11-03 00:27:46 | INFO     | src.modules.input_processing.text_processor:_process_text_content:149 - Successfully processed text with 298 words and 38 entities
+2025-11-03 00:27:50 | INFO     | src.modules.insight_generation.generator:generate_insights:34 - Generating insights for structured data
+2025-11-03 00:27:50 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_trends:127 - Detected increasing trend in quantity
+2025-11-03 00:27:50 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_trends:127 - Detected decreasing trend in unit_price
+2025-11-03 00:27:50 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_trends:127 - Detected decreasing trend in total_amount
+2025-11-03 00:27:50 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_anomalies:234 - Detected 0 anomalies in quantity
+2025-11-03 00:27:50 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_anomalies:234 - Detected 0 anomalies in unit_price
+2025-11-03 00:27:50 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_correlations:338 - Detected 2 correlations
+2025-11-03 00:27:50 | INFO     | src.modules.insight_generation.statistical_analyzer:compare_groups:439 - Generated 2 comparisons
+2025-11-03 00:27:50 | INFO     | src.modules.insight_generation.generator:generate_insights:59 - Generated 7 insights
+2025-11-03 00:27:52 | INFO     | src.modules.role_context.context_analyzer:create_role_context:45 - Created context for role: Chief Financial Officer
+2025-11-03 00:27:52 | INFO     | src.modules.insight_generation.generator:generate_insights:34 - Generating insights for structured data
+2025-11-03 00:27:52 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_trends:127 - Detected increasing trend in quantity
+2025-11-03 00:27:52 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_trends:127 - Detected decreasing trend in unit_price
+2025-11-03 00:27:52 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_trends:127 - Detected decreasing trend in total_amount
+2025-11-03 00:27:52 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_anomalies:234 - Detected 0 anomalies in quantity
+2025-11-03 00:27:52 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_anomalies:234 - Detected 0 anomalies in unit_price
+2025-11-03 00:27:52 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_correlations:338 - Detected 2 correlations
+2025-11-03 00:27:52 | INFO     | src.modules.insight_generation.statistical_analyzer:compare_groups:439 - Generated 2 comparisons
+2025-11-03 00:27:52 | INFO     | src.modules.insight_generation.generator:_filter_for_role:165 - Starting filter with 7 insights for role cfo
+2025-11-03 00:27:52 | INFO     | src.modules.insight_generation.generator:_filter_for_role:166 - Role requirements - min_confidence: 0.8, types: ['trend', 'strategic_risk', 'opportunity', 'high_level_comparison']
+2025-11-03 00:27:52 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:172 - Filtered out 'Increasing Trend in quantity' - confidence 0.03 below 0.70
+2025-11-03 00:27:52 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:172 - Filtered out 'Decreasing Trend in unit_price' - confidence 0.05 below 0.70
+2025-11-03 00:27:52 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:172 - Filtered out 'Decreasing Trend in total_amount' - confidence 0.05 below 0.70
+2025-11-03 00:27:52 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:172 - Filtered out 'Positive Correlation: quantity & total_amount' - confidence 0.62 below 0.70
+2025-11-03 00:27:52 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:172 - Filtered out 'Positive Correlation: unit_price & total_amount' - confidence 0.68 below 0.70
+2025-11-03 00:27:52 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:243 - Accepted insight: '2025-08-19 vs 2024-12-25 in quantity' (type: comparison, confidence: 0.90)
+2025-11-03 00:27:52 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:243 - Accepted insight: '2024-12-25 vs 2025-08-09 in quantity' (type: comparison, confidence: 0.90)
+2025-11-03 00:27:52 | INFO     | src.modules.insight_generation.generator:_filter_for_role:245 - Filtered to 2 insights for role (from 7 total)
+2025-11-03 00:27:52 | INFO     | src.modules.insight_generation.generator:generate_insights:59 - Generated 2 insights
+2025-11-03 00:27:53 | INFO     | src.modules.role_context.context_analyzer:create_role_context:45 - Created context for role: Regional Sales Manager
+2025-11-03 00:27:53 | INFO     | src.modules.insight_generation.generator:generate_insights:34 - Generating insights for structured data
+2025-11-03 00:27:53 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_trends:127 - Detected increasing trend in quantity
+2025-11-03 00:27:53 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_trends:127 - Detected decreasing trend in unit_price
+2025-11-03 00:27:53 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_trends:127 - Detected decreasing trend in total_amount
+2025-11-03 00:27:53 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_anomalies:234 - Detected 0 anomalies in quantity
+2025-11-03 00:27:53 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_anomalies:234 - Detected 0 anomalies in unit_price
+2025-11-03 00:27:53 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_correlations:338 - Detected 2 correlations
+2025-11-03 00:27:53 | INFO     | src.modules.insight_generation.statistical_analyzer:compare_groups:439 - Generated 2 comparisons
+2025-11-03 00:27:53 | INFO     | src.modules.insight_generation.generator:_filter_for_role:165 - Starting filter with 7 insights for role regional_sales_manager
+2025-11-03 00:27:53 | INFO     | src.modules.insight_generation.generator:_filter_for_role:166 - Role requirements - min_confidence: 0.7, types: ['anomaly', 'trend', 'team_performance', 'operational_issue']
+2025-11-03 00:27:53 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:172 - Filtered out 'Increasing Trend in quantity' - confidence 0.03 below 0.60
+2025-11-03 00:27:53 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:172 - Filtered out 'Decreasing Trend in unit_price' - confidence 0.05 below 0.60
+2025-11-03 00:27:53 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:172 - Filtered out 'Decreasing Trend in total_amount' - confidence 0.05 below 0.60
+2025-11-03 00:27:53 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:223 - Accepted 'Positive Correlation: quantity & total_amount' via manager role override
+2025-11-03 00:27:53 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:243 - Accepted insight: 'Positive Correlation: quantity & total_amount' (type: correlation, confidence: 0.62)
+2025-11-03 00:27:53 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:223 - Accepted 'Positive Correlation: unit_price & total_amount' via manager role override
+2025-11-03 00:27:53 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:243 - Accepted insight: 'Positive Correlation: unit_price & total_amount' (type: correlation, confidence: 0.68)
+2025-11-03 00:27:53 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:223 - Accepted '2025-08-19 vs 2024-12-25 in quantity' via manager role override
+2025-11-03 00:27:53 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:243 - Accepted insight: '2025-08-19 vs 2024-12-25 in quantity' (type: comparison, confidence: 0.90)
+2025-11-03 00:27:53 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:223 - Accepted '2024-12-25 vs 2025-08-09 in quantity' via manager role override
+2025-11-03 00:27:53 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:243 - Accepted insight: '2024-12-25 vs 2025-08-09 in quantity' (type: comparison, confidence: 0.90)
+2025-11-03 00:27:53 | INFO     | src.modules.insight_generation.generator:_filter_for_role:245 - Filtered to 4 insights for role (from 7 total)
+2025-11-03 00:27:53 | INFO     | src.modules.insight_generation.generator:generate_insights:59 - Generated 4 insights
+2025-11-03 00:27:54 | INFO     | src.modules.role_context.context_analyzer:create_role_context:45 - Created context for role: Financial Analyst
+2025-11-03 00:27:54 | INFO     | src.modules.insight_generation.generator:generate_insights:34 - Generating insights for structured data
+2025-11-03 00:27:54 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_trends:127 - Detected increasing trend in quantity
+2025-11-03 00:27:54 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_trends:127 - Detected decreasing trend in unit_price
+2025-11-03 00:27:54 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_trends:127 - Detected decreasing trend in total_amount
+2025-11-03 00:27:54 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_anomalies:234 - Detected 0 anomalies in quantity
+2025-11-03 00:27:54 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_anomalies:234 - Detected 0 anomalies in unit_price
+2025-11-03 00:27:54 | INFO     | src.modules.insight_generation.statistical_analyzer:detect_correlations:338 - Detected 2 correlations
+2025-11-03 00:27:54 | INFO     | src.modules.insight_generation.statistical_analyzer:compare_groups:439 - Generated 2 comparisons
+2025-11-03 00:27:54 | INFO     | src.modules.insight_generation.generator:_filter_for_role:165 - Starting filter with 7 insights for role financial_analyst
+2025-11-03 00:27:54 | INFO     | src.modules.insight_generation.generator:_filter_for_role:166 - Role requirements - min_confidence: 0.65, types: ['detailed_analysis', 'root_cause', 'variance', 'forecast']
+2025-11-03 00:27:54 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:172 - Filtered out 'Increasing Trend in quantity' - confidence 0.03 below 0.55
+2025-11-03 00:27:54 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:172 - Filtered out 'Decreasing Trend in unit_price' - confidence 0.05 below 0.55
+2025-11-03 00:27:54 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:172 - Filtered out 'Decreasing Trend in total_amount' - confidence 0.05 below 0.55
+2025-11-03 00:27:54 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:223 - Accepted 'Positive Correlation: quantity & total_amount' via manager role override
+2025-11-03 00:27:54 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:243 - Accepted insight: 'Positive Correlation: quantity & total_amount' (type: correlation, confidence: 0.62)
+2025-11-03 00:27:54 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:223 - Accepted 'Positive Correlation: unit_price & total_amount' via manager role override
+2025-11-03 00:27:54 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:243 - Accepted insight: 'Positive Correlation: unit_price & total_amount' (type: correlation, confidence: 0.68)
+2025-11-03 00:27:54 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:223 - Accepted '2025-08-19 vs 2024-12-25 in quantity' via manager role override
+2025-11-03 00:27:54 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:243 - Accepted insight: '2025-08-19 vs 2024-12-25 in quantity' (type: comparison, confidence: 0.90)
+2025-11-03 00:27:54 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:223 - Accepted '2024-12-25 vs 2025-08-09 in quantity' via manager role override
+2025-11-03 00:27:54 | DEBUG    | src.modules.insight_generation.generator:_filter_for_role:243 - Accepted insight: '2024-12-25 vs 2025-08-09 in quantity' (type: comparison, confidence: 0.90)
+2025-11-03 00:27:54 | INFO     | src.modules.insight_generation.generator:_filter_for_role:245 - Filtered to 4 insights for role (from 7 total)
+2025-11-03 00:27:54 | INFO     | src.modules.insight_generation.generator:generate_insights:59 - Generated 4 insights
+2025-11-03 00:27:55 | INFO     | src.modules.conversational_interface.manager:create_session:43 - Created conversation session: session_b2642041
+2025-11-03 00:28:10 | INFO     | src.modules.conversational_interface.llm_handler:process_query_with_llm:111 - LLM processed query successfully: intent=summary
+2025-11-03 00:28:10 | INFO     | src.modules.conversational_interface.manager:process_message:75 - Used LLM for query processing
+2025-11-03 00:28:10 | INFO     | src.modules.conversational_interface.manager:process_message:101 - Processed message in session session_b2642041: intent=summary
+2025-11-03 00:28:22 | INFO     | src.modules.conversational_interface.llm_handler:process_query_with_llm:111 - LLM processed query successfully: intent=clarification
+2025-11-03 00:28:22 | INFO     | src.modules.conversational_interface.manager:process_message:75 - Used LLM for query processing
+2025-11-03 00:28:22 | INFO     | src.modules.conversational_interface.manager:process_message:101 - Processed message in session session_b2642041: intent=clarification
+2025-11-03 00:28:37 | INFO     | src.modules.conversational_interface.llm_handler:process_query_with_llm:111 - LLM processed query successfully: intent=recommendation
+2025-11-03 00:28:37 | INFO     | src.modules.conversational_interface.manager:process_message:75 - Used LLM for query processing
+2025-11-03 00:28:37 | INFO     | src.modules.conversational_interface.manager:process_message:101 - Processed message in session session_b2642041: intent=recommendation
+2025-11-03 00:28:53 | INFO     | src.modules.feedback_learning.collector:record_insight_feedback:53 - Recorded feedback for insight trend_6699d30a: rating=5
+2025-11-03 00:28:53 | INFO     | src.modules.feedback_learning.collector:record_insight_feedback:53 - Recorded feedback for insight trend_cf8427ee: rating=4
+2025-11-03 00:28:53 | INFO     | src.modules.feedback_learning.collector:record_insight_feedback:53 - Recorded feedback for insight comp_594f5dd7: rating=3
+2025-11-03 00:28:54 | DEBUG    | src.modules.feedback_learning.collector:record_implicit_feedback:111 - Recorded implicit feedback for trend_6699d30a
+2025-11-03 00:28:54 | INFO     | src.modules.feedback_learning.collector:record_report_feedback:85 - Recorded report feedback: overall=4/5
+2025-11-03 00:28:55 | INFO     | src.modules.feedback_learning.learning_engine:adapt_system:124 - Adapting system based on feedback
+2025-11-03 00:28:55 | INFO     | src.modules.feedback_learning.learning_engine:update_insight_weights:28 - Updating insight weights from feedback
+2025-11-03 00:28:55 | INFO     | src.modules.feedback_learning.learning_engine:update_insight_weights:50 - Updated weights for 3 insights
+2025-11-03 00:28:55 | INFO     | src.modules.feedback_learning.learning_engine:learn_role_preferences:55 - Learning role preferences
+2025-11-03 00:28:55 | INFO     | src.modules.feedback_learning.learning_engine:learn_role_preferences:71 - Learned preferences for 1 roles
+2025-11-03 00:28:55 | INFO     | src.modules.feedback_learning.learning_engine:adapt_system:150 - System adapted: 2 total adaptations
+2025-11-03 00:28:55 | INFO     | src.modules.feedback_learning.collector:get_feedback_summary:184 - Generated feedback summary: 4 feedbacks, avg=4.00
+2025-11-03 00:28:55 | INFO     | src.modules.feedback_learning.learning_engine:compute_learning_metrics:118 - Computed learning metrics: satisfaction=80.00%

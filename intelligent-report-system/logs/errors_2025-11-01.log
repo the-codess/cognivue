@@ -1,0 +1,2 @@
+2025-11-01 11:02:12 | ERROR    | src.modules.input_processing.image_processor:_extract_text_ocr:122 - Error in OCR extraction: /usr/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-11-01 11:02:13 | ERROR    | src.modules.input_processing.image_processor:_extract_text_ocr:122 - Error in OCR extraction: /usr/bin/tesseract is not installed or it's not in your PATH. See README file for more information.

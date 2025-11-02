@@ -1,0 +1,122 @@
+2025-11-01 11:01:15 | INFO     | src.utils.logger:setup_logger:43 - Logger initialized successfully
+2025-11-01 11:01:40 | INFO     | src.utils.sample_data_generator:__init__:21 - Sample data will be saved to: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample
+2025-11-01 11:01:40 | INFO     | src.utils.sample_data_generator:generate_all_samples:233 - Generating all sample data files
+2025-11-01 11:01:40 | INFO     | src.utils.sample_data_generator:generate_sales_data:25 - Generating sales data with 1000 rows
+2025-11-01 11:01:40 | INFO     | src.utils.sample_data_generator:generate_sales_data:50 - Sales data saved to: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/sales_data.csv
+2025-11-01 11:01:40 | INFO     | src.utils.sample_data_generator:generate_financial_report:55 - Generating financial report
+2025-11-01 11:01:40 | INFO     | src.utils.sample_data_generator:generate_financial_report:102 - Financial report saved to: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/financial_report.txt
+2025-11-01 11:01:40 | INFO     | src.utils.sample_data_generator:generate_customer_feedback:107 - Generating customer feedback document
+2025-11-01 11:01:40 | INFO     | src.utils.sample_data_generator:generate_customer_feedback:167 - Customer feedback saved to: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/customer_feedback.txt
+2025-11-01 11:01:40 | INFO     | src.utils.sample_data_generator:generate_sample_invoice_image:172 - Generating sample invoice image
+2025-11-01 11:01:40 | INFO     | src.utils.sample_data_generator:generate_sample_invoice_image:228 - Sample invoice image saved to: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/sample_invoice.png
+2025-11-01 11:01:40 | INFO     | src.utils.sample_data_generator:generate_all_samples:242 - Generated 4 sample files
+2025-11-01 11:01:40 | INFO     | src.modules.input_processing.processor:__init__:22 - Initializing InputProcessor
+2025-11-01 11:01:40 | INFO     | src.modules.input_processing.structured_processor:__init__:23 - StructuredDataProcessor initialized
+2025-11-01 11:01:40 | INFO     | src.modules.input_processing.text_processor:__init__:24 - Initializing TextDataProcessor
+2025-11-01 11:01:41 | INFO     | src.modules.input_processing.text_processor:__init__:29 - Loaded spaCy model: en_core_web_sm
+2025-11-01 11:02:12 | INFO     | src.modules.input_processing.text_processor:__init__:43 - Loaded sentiment analysis model
+2025-11-01 11:02:12 | INFO     | src.modules.input_processing.image_processor:__init__:23 - Initializing ImageDataProcessor
+2025-11-01 11:02:12 | INFO     | src.modules.input_processing.processor:__init__:38 - InputProcessor initialized successfully
+2025-11-01 11:02:12 | INFO     | src.modules.input_processing.processor:process_file:49 - Processing file: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/sales_data.csv (type: .csv)
+2025-11-01 11:02:12 | INFO     | src.modules.input_processing.structured_processor:process_csv:28 - Processing CSV file: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/sales_data.csv
+2025-11-01 11:02:12 | INFO     | src.modules.input_processing.structured_processor:process_csv:57 - Successfully processed CSV with 1000 rows and 7 columns
+2025-11-01 11:02:12 | INFO     | src.modules.input_processing.processor:process_file:49 - Processing file: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/financial_report.txt (type: .txt)
+2025-11-01 11:02:12 | INFO     | src.modules.input_processing.text_processor:process_text_file:53 - Processing text file: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/financial_report.txt
+2025-11-01 11:02:12 | DEBUG    | src.modules.input_processing.text_processor:_extract_entities:185 - Extracted 27 entities
+2025-11-01 11:02:12 | DEBUG    | src.modules.input_processing.text_processor:_analyze_sentiment:209 - Sentiment: positive (1.00)
+2025-11-01 11:02:12 | DEBUG    | src.modules.input_processing.text_processor:_extract_key_phrases:235 - Extracted 20 key phrases
+2025-11-01 11:02:12 | INFO     | src.modules.input_processing.text_processor:_process_text_content:149 - Successfully processed text with 237 words and 27 entities
+2025-11-01 11:02:12 | INFO     | src.modules.input_processing.processor:process_file:49 - Processing file: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/customer_feedback.txt (type: .txt)
+2025-11-01 11:02:12 | INFO     | src.modules.input_processing.text_processor:process_text_file:53 - Processing text file: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/customer_feedback.txt
+2025-11-01 11:02:12 | DEBUG    | src.modules.input_processing.text_processor:_extract_entities:185 - Extracted 38 entities
+2025-11-01 11:02:12 | DEBUG    | src.modules.input_processing.text_processor:_analyze_sentiment:209 - Sentiment: positive (0.99)
+2025-11-01 11:02:12 | DEBUG    | src.modules.input_processing.text_processor:_extract_key_phrases:235 - Extracted 20 key phrases
+2025-11-01 11:02:12 | INFO     | src.modules.input_processing.text_processor:_process_text_content:149 - Successfully processed text with 298 words and 38 entities
+2025-11-01 11:02:12 | INFO     | src.modules.input_processing.processor:process_file:49 - Processing file: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/sample_invoice.png (type: .png)
+2025-11-01 11:02:12 | INFO     | src.modules.input_processing.image_processor:process_image:34 - Processing image file: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/sample_invoice.png
+2025-11-01 11:02:12 | ERROR    | src.modules.input_processing.image_processor:_extract_text_ocr:122 - Error in OCR extraction: /usr/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-11-01 11:02:12 | DEBUG    | src.modules.input_processing.image_processor:_detect_objects:187 - Detected objects/properties: ['square_orientation', 'bright_image']
+2025-11-01 11:02:12 | INFO     | src.modules.input_processing.image_processor:process_image:80 - Successfully processed image: 800x600, text_found=False
+2025-11-01 11:02:12 | INFO     | src.modules.input_processing.processor:process_batch:119 - Processing batch of 4 files
+2025-11-01 11:02:12 | INFO     | src.modules.input_processing.processor:process_file:49 - Processing file: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/sales_data.csv (type: .csv)
+2025-11-01 11:02:12 | INFO     | src.modules.input_processing.structured_processor:process_csv:28 - Processing CSV file: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/sales_data.csv
+2025-11-01 11:02:12 | INFO     | src.modules.input_processing.structured_processor:process_csv:57 - Successfully processed CSV with 1000 rows and 7 columns
+2025-11-01 11:02:12 | INFO     | src.modules.input_processing.processor:process_file:49 - Processing file: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/financial_report.txt (type: .txt)
+2025-11-01 11:02:12 | INFO     | src.modules.input_processing.text_processor:process_text_file:53 - Processing text file: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/financial_report.txt
+2025-11-01 11:02:12 | DEBUG    | src.modules.input_processing.text_processor:_extract_entities:185 - Extracted 27 entities
+2025-11-01 11:02:12 | DEBUG    | src.modules.input_processing.text_processor:_analyze_sentiment:209 - Sentiment: positive (1.00)
+2025-11-01 11:02:12 | DEBUG    | src.modules.input_processing.text_processor:_extract_key_phrases:235 - Extracted 20 key phrases
+2025-11-01 11:02:12 | INFO     | src.modules.input_processing.text_processor:_process_text_content:149 - Successfully processed text with 237 words and 27 entities
+2025-11-01 11:02:12 | INFO     | src.modules.input_processing.processor:process_file:49 - Processing file: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/customer_feedback.txt (type: .txt)
+2025-11-01 11:02:12 | INFO     | src.modules.input_processing.text_processor:process_text_file:53 - Processing text file: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/customer_feedback.txt
+2025-11-01 11:02:12 | DEBUG    | src.modules.input_processing.text_processor:_extract_entities:185 - Extracted 38 entities
+2025-11-01 11:02:12 | DEBUG    | src.modules.input_processing.text_processor:_analyze_sentiment:209 - Sentiment: positive (0.99)
+2025-11-01 11:02:12 | DEBUG    | src.modules.input_processing.text_processor:_extract_key_phrases:235 - Extracted 20 key phrases
+2025-11-01 11:02:12 | INFO     | src.modules.input_processing.text_processor:_process_text_content:149 - Successfully processed text with 298 words and 38 entities
+2025-11-01 11:02:12 | INFO     | src.modules.input_processing.processor:process_file:49 - Processing file: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/sample_invoice.png (type: .png)
+2025-11-01 11:02:12 | INFO     | src.modules.input_processing.image_processor:process_image:34 - Processing image file: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/sample_invoice.png
+2025-11-01 11:02:13 | ERROR    | src.modules.input_processing.image_processor:_extract_text_ocr:122 - Error in OCR extraction: /usr/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-11-01 11:02:13 | DEBUG    | src.modules.input_processing.image_processor:_detect_objects:187 - Detected objects/properties: ['square_orientation', 'bright_image']
+2025-11-01 11:02:13 | INFO     | src.modules.input_processing.image_processor:process_image:80 - Successfully processed image: 800x600, text_found=False
+2025-11-01 11:02:13 | INFO     | src.modules.input_processing.processor:process_batch:132 - Successfully processed 4 files in batch
+2025-11-01 11:05:59 | INFO     | src.utils.logger:setup_logger:43 - Logger initialized successfully
+2025-11-01 11:06:02 | INFO     | src.utils.sample_data_generator:__init__:21 - Sample data will be saved to: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample
+2025-11-01 11:06:02 | INFO     | src.utils.sample_data_generator:generate_all_samples:233 - Generating all sample data files
+2025-11-01 11:06:02 | INFO     | src.utils.sample_data_generator:generate_sales_data:25 - Generating sales data with 1000 rows
+2025-11-01 11:06:02 | INFO     | src.utils.sample_data_generator:generate_sales_data:50 - Sales data saved to: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/sales_data.csv
+2025-11-01 11:06:02 | INFO     | src.utils.sample_data_generator:generate_financial_report:55 - Generating financial report
+2025-11-01 11:06:02 | INFO     | src.utils.sample_data_generator:generate_financial_report:102 - Financial report saved to: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/financial_report.txt
+2025-11-01 11:06:02 | INFO     | src.utils.sample_data_generator:generate_customer_feedback:107 - Generating customer feedback document
+2025-11-01 11:06:02 | INFO     | src.utils.sample_data_generator:generate_customer_feedback:167 - Customer feedback saved to: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/customer_feedback.txt
+2025-11-01 11:06:02 | INFO     | src.utils.sample_data_generator:generate_sample_invoice_image:172 - Generating sample invoice image
+2025-11-01 11:06:02 | INFO     | src.utils.sample_data_generator:generate_sample_invoice_image:228 - Sample invoice image saved to: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/sample_invoice.png
+2025-11-01 11:06:02 | INFO     | src.utils.sample_data_generator:generate_all_samples:242 - Generated 4 sample files
+2025-11-01 11:06:02 | INFO     | src.modules.input_processing.processor:__init__:22 - Initializing InputProcessor
+2025-11-01 11:06:02 | INFO     | src.modules.input_processing.structured_processor:__init__:23 - StructuredDataProcessor initialized
+2025-11-01 11:06:02 | INFO     | src.modules.input_processing.text_processor:__init__:24 - Initializing TextDataProcessor
+2025-11-01 11:06:02 | INFO     | src.modules.input_processing.text_processor:__init__:29 - Loaded spaCy model: en_core_web_sm
+2025-11-01 11:06:03 | INFO     | src.modules.input_processing.text_processor:__init__:43 - Loaded sentiment analysis model
+2025-11-01 11:06:03 | INFO     | src.modules.input_processing.image_processor:__init__:23 - Initializing ImageDataProcessor
+2025-11-01 11:06:03 | INFO     | src.modules.input_processing.processor:__init__:38 - InputProcessor initialized successfully
+2025-11-01 11:06:03 | INFO     | src.modules.input_processing.processor:process_file:49 - Processing file: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/sales_data.csv (type: .csv)
+2025-11-01 11:06:03 | INFO     | src.modules.input_processing.structured_processor:process_csv:28 - Processing CSV file: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/sales_data.csv
+2025-11-01 11:06:03 | INFO     | src.modules.input_processing.structured_processor:process_csv:57 - Successfully processed CSV with 1000 rows and 7 columns
+2025-11-01 11:06:03 | INFO     | src.modules.input_processing.processor:process_file:49 - Processing file: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/financial_report.txt (type: .txt)
+2025-11-01 11:06:03 | INFO     | src.modules.input_processing.text_processor:process_text_file:53 - Processing text file: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/financial_report.txt
+2025-11-01 11:06:03 | DEBUG    | src.modules.input_processing.text_processor:_extract_entities:185 - Extracted 27 entities
+2025-11-01 11:06:03 | DEBUG    | src.modules.input_processing.text_processor:_analyze_sentiment:209 - Sentiment: positive (1.00)
+2025-11-01 11:06:03 | DEBUG    | src.modules.input_processing.text_processor:_extract_key_phrases:235 - Extracted 20 key phrases
+2025-11-01 11:06:03 | INFO     | src.modules.input_processing.text_processor:_process_text_content:149 - Successfully processed text with 237 words and 27 entities
+2025-11-01 11:06:03 | INFO     | src.modules.input_processing.processor:process_file:49 - Processing file: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/customer_feedback.txt (type: .txt)
+2025-11-01 11:06:03 | INFO     | src.modules.input_processing.text_processor:process_text_file:53 - Processing text file: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/customer_feedback.txt
+2025-11-01 11:06:03 | DEBUG    | src.modules.input_processing.text_processor:_extract_entities:185 - Extracted 38 entities
+2025-11-01 11:06:03 | DEBUG    | src.modules.input_processing.text_processor:_analyze_sentiment:209 - Sentiment: positive (0.99)
+2025-11-01 11:06:03 | DEBUG    | src.modules.input_processing.text_processor:_extract_key_phrases:235 - Extracted 20 key phrases
+2025-11-01 11:06:03 | INFO     | src.modules.input_processing.text_processor:_process_text_content:149 - Successfully processed text with 298 words and 38 entities
+2025-11-01 11:06:03 | INFO     | src.modules.input_processing.processor:process_file:49 - Processing file: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/sample_invoice.png (type: .png)
+2025-11-01 11:06:03 | INFO     | src.modules.input_processing.image_processor:process_image:34 - Processing image file: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/sample_invoice.png
+2025-11-01 11:06:05 | DEBUG    | src.modules.input_processing.image_processor:_extract_text_ocr:117 - OCR extracted 72 text blocks with avg confidence 65.60
+2025-11-01 11:06:05 | DEBUG    | src.modules.input_processing.image_processor:_detect_objects:187 - Detected objects/properties: ['square_orientation', 'bright_image']
+2025-11-01 11:06:05 | INFO     | src.modules.input_processing.image_processor:process_image:80 - Successfully processed image: 800x600, text_found=True
+2025-11-01 11:06:05 | INFO     | src.modules.input_processing.processor:process_batch:119 - Processing batch of 4 files
+2025-11-01 11:06:05 | INFO     | src.modules.input_processing.processor:process_file:49 - Processing file: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/sales_data.csv (type: .csv)
+2025-11-01 11:06:05 | INFO     | src.modules.input_processing.structured_processor:process_csv:28 - Processing CSV file: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/sales_data.csv
+2025-11-01 11:06:05 | INFO     | src.modules.input_processing.structured_processor:process_csv:57 - Successfully processed CSV with 1000 rows and 7 columns
+2025-11-01 11:06:05 | INFO     | src.modules.input_processing.processor:process_file:49 - Processing file: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/financial_report.txt (type: .txt)
+2025-11-01 11:06:05 | INFO     | src.modules.input_processing.text_processor:process_text_file:53 - Processing text file: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/financial_report.txt
+2025-11-01 11:06:05 | DEBUG    | src.modules.input_processing.text_processor:_extract_entities:185 - Extracted 27 entities
+2025-11-01 11:06:05 | DEBUG    | src.modules.input_processing.text_processor:_analyze_sentiment:209 - Sentiment: positive (1.00)
+2025-11-01 11:06:05 | DEBUG    | src.modules.input_processing.text_processor:_extract_key_phrases:235 - Extracted 20 key phrases
+2025-11-01 11:06:05 | INFO     | src.modules.input_processing.text_processor:_process_text_content:149 - Successfully processed text with 237 words and 27 entities
+2025-11-01 11:06:05 | INFO     | src.modules.input_processing.processor:process_file:49 - Processing file: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/customer_feedback.txt (type: .txt)
+2025-11-01 11:06:05 | INFO     | src.modules.input_processing.text_processor:process_text_file:53 - Processing text file: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/customer_feedback.txt
+2025-11-01 11:06:05 | DEBUG    | src.modules.input_processing.text_processor:_extract_entities:185 - Extracted 38 entities
+2025-11-01 11:06:05 | DEBUG    | src.modules.input_processing.text_processor:_analyze_sentiment:209 - Sentiment: positive (0.99)
+2025-11-01 11:06:05 | DEBUG    | src.modules.input_processing.text_processor:_extract_key_phrases:235 - Extracted 20 key phrases
+2025-11-01 11:06:05 | INFO     | src.modules.input_processing.text_processor:_process_text_content:149 - Successfully processed text with 298 words and 38 entities
+2025-11-01 11:06:05 | INFO     | src.modules.input_processing.processor:process_file:49 - Processing file: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/sample_invoice.png (type: .png)
+2025-11-01 11:06:05 | INFO     | src.modules.input_processing.image_processor:process_image:34 - Processing image file: /Users/thecodess/Documents/personal_projects/Cognivue/code/31102025/cognivue/intelligent-report-system/data/sample/sample_invoice.png
+2025-11-01 11:06:05 | DEBUG    | src.modules.input_processing.image_processor:_extract_text_ocr:117 - OCR extracted 72 text blocks with avg confidence 65.60
+2025-11-01 11:06:05 | DEBUG    | src.modules.input_processing.image_processor:_detect_objects:187 - Detected objects/properties: ['square_orientation', 'bright_image']
+2025-11-01 11:06:05 | INFO     | src.modules.input_processing.image_processor:process_image:80 - Successfully processed image: 800x600, text_found=True
+2025-11-01 11:06:05 | INFO     | src.modules.input_processing.processor:process_batch:132 - Successfully processed 4 files in batch

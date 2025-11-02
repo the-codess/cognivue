@@ -1,0 +1,4 @@
+2025-11-02 23:22:12 | ERROR    | __main__:<module>:301 - Test failed with error: 1 validation error for FeedbackSummary
+engagement_trend
+  Field required [type=missing, input_value={'summary_id': 'summary_1...rating_trend': 'stable'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
