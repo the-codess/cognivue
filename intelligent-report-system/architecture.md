@@ -474,4 +474,4 @@ Stage 3: Enterprise deployment
 
 ---
 
-*Architecture Documentation v1.0 | November 2024*
+*Architecture Documentation v1.0 | November 2025*
